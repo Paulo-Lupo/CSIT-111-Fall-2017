@@ -1,0 +1,24 @@
+/* CHALLENGE ACTIVITY Joao Paulo D. S. Ferreira
+2.2.3: Declaring variables.
+Write two statements to get input values into birthMonth and birthYear.
+Then write a statement to output the month, a slash, and the year. 
+End with newline. */
+
+import java.util.Scanner;
+
+public class AssigningNumberToVariable {
+   public static void main (String [] args) {
+      int numPeople = 0;
+
+      numPeople = 10;
+      
+      /* My solution */
+      numPeople = numPeople + 5;
+
+      System.out.print("There are ");
+      System.out.print(numPeople);
+      System.out.println(" people.");
+
+      return;
+   }
+}
