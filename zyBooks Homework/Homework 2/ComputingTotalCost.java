@@ -13,8 +13,6 @@
  * and assign totalCost with the result. 
  */
 
-
-
 public class ComputingTotalCost {
 	public static void main (String [] args) {
 		int numDrinks;
