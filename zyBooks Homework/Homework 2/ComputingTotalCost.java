@@ -15,16 +15,16 @@
 
 public class ComputingTotalCost {
 	public static void main (String [] args) {
-	int numDrinks;
-     	int numTacos;
-     	int totalCost;
+		int numDrinks;
+     		int numTacos;
+     		int totalCost;
 
-     	numDrinks = 4;
-     	numTacos  = 6;
+     		numDrinks = 4;
+     		numTacos  = 6;
       
-     	/* My solution */
-     	totalCost = numDrinks*2 + numTacos*3;
+     		/* My solution */
+     		totalCost = numDrinks*2 + numTacos*3;
 
-     	System.out.println("Total cost: " + totalCost);
-   }
+     		System.out.println("Total cost: " + totalCost);
+   	}
 }
