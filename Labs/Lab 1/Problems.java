@@ -6,7 +6,7 @@
  * September 23, 2017 
  */
 
-// Provide lots of syntax errors for the user to correct.
+/* Provide lots of syntax errors for the user to correct. */
 
 public class Problems {
 	public static void main (String[] args) {

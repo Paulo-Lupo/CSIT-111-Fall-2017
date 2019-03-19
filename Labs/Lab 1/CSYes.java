@@ -7,7 +7,7 @@
  */
 
 
-// This programs prints a message
+/* This programs prints a message */
 
 public class CSYes {
 	public static void main(String[] args) {
