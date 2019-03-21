@@ -32,7 +32,7 @@ public class Circle {
 		System.out.println("The area of a circle with radius " + radius 
 							+ " is " + area1);
     
-		//Print statement for the circumference
+		/* Print statement for the circumference */
 		System.out.println("The circumference of a circle with radius " 
 							+ radius + " is " + circumference1);
      
@@ -42,7 +42,7 @@ public class Circle {
 		System.out.println("The area of a circle with radius " + radius 
 							+ " is " + area2);
     
-		// Print statement for the circumference
+		/* Print statement for the circumference */
 		System.out.println("The circumference of a circle with radius " 
 							+ radius + " is " + circumference2);
     
