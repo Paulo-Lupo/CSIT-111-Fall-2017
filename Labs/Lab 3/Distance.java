@@ -6,7 +6,7 @@
  * October 8, 2017 
  */
 
-// Computes the distance between two points
+/* computes the distance between two points */
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class Distance {
 		double distance; 		// distance between the points
 		Scanner scan = new Scanner(System.in);
 		
-		// Reads in the two points
+		/* reads in the two points */
 		System.out.print ("Enter the coordinates of the first point " 
 						  + "(put a space between them): ");
 		x1 = scan.nextDouble();
@@ -26,11 +26,11 @@ public class Distance {
 		x2 = scan.nextDouble();
 		y2 = scan.nextDouble();
       
-		// Computes the distance
+		/* computes the distance */
 		System.out.print("The distance between the points is: ");
 		distance = Math.sqrt(Math.pow(x1-x2, 2)+ Math.pow(y1-y2, 2));
       
-		// Prints out the answer
+		/* prints out the answer */
 		System.out.println(distance);
 	}
 }

@@ -15,20 +15,20 @@ import java.util.Random;
 public class Dice {
 	public static void main(String args[]) {
 
-		// Declaring the variables
+		/* declaring the variables */
 		Random generator = new Random();
 		int die1;
 		int die2;
 		int dieSum;
             
-		// Getting random values for each die
+		/* getting random values for each die */
       	die1 = generator.nextInt(6) + 1;
       	die2 = generator.nextInt(6) + 1;
       
-      	// Adding both results of the dice
+      	/* adding both results of the dice */
       	dieSum = die1 + die2;
       
-      	// Printing out the results
+      	/* printing out the results */
       	System.out.println("Frist die roll: " + die1);
       	System.out.println("Second die roll: " + die2);
       	System.out.println("Sum of the rolls: " + dieSum);

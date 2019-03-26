@@ -24,7 +24,7 @@ public class Circle {
 		double area1 = PI * radius * radius;
     
 		/* 
-		 * Declaring the variable circumference 
+		 * declaring the variable circumference 
 		 * to store the value of the Circumference 
 		 */
 		double circumference1 = 2 * PI * radius;
@@ -32,7 +32,7 @@ public class Circle {
 		System.out.println("The area of a circle with radius " + radius 
 							+ " is " + area1);
     
-		//Print statement for the circumference
+		/* print statement for the circumference */
 		System.out.println("The circumference of a circle with radius " 
 							+ radius + " is " + circumference1);
      
@@ -42,12 +42,12 @@ public class Circle {
 		System.out.println("The area of a circle with radius " + radius 
 							+ " is " + area2);
     
-		// Print statement for the circumference
+		/* print statement for the circumference */
 		System.out.println("The circumference of a circle with radius " 
 							+ radius + " is " + circumference2);
     
 		/* 
-		 * Declaring the ratio between both area values 
+		 * declaring the ratio between both area values 
 		 * and both  circumference values. 
 		 */
 		double areaRatio = area2/area1;

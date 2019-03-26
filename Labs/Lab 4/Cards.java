@@ -6,31 +6,31 @@
  * October 11, 2017 
  */
 
-// This program is a simple game of cards that uses enumeration.
+/* This program is a simple game of cards that uses enumeration. */
 
 public class Cards {
 
-	// Defines an enumerated type at the class level
+	/* defines an enumerated type at the class level */
 	enum Rank {ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen, king};
    
 	public static void main(String args[]) {
       
-		// Declares the variables of type Rank and assigning values to them 
+		/* declares the variables of type Rank and assigning values to them */
 		Rank highCard, faceCard, card1, card2;
 		highCard = Rank.ace;
 		faceCard = Rank.king;
 		card1 = Rank.three;
 		card2 = Rank.seven;
       
-		// Prints a statement using the previous variables 
+		/* prints a statement using the previous variables */
 		System.out.println("A black jack hand: " + highCard + " and " + faceCard);
       
-		// Declares variables and assigning the face value of the cards to them
+		/* declares variables and assigning the face value of the cards to them */
 		int card1Val, card2Val;
 		card1Val = card1.ordinal()+1;
 		card2Val = card2.ordinal()+1;
       
-		// Prints out the cards and their sum 
+		/* prints out the cards and their sum */
 		System.out.println("A two card hand: " + card1 + " and " + card2);
 		System.out.println("Hand value: " + (card1Val + card2Val));
 	}
